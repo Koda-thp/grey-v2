@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agence Grey — Agence web & IA pour artisans | Nice · Côte d'Azur</title>
+  <meta name="description" content="Sites web sur mesure, SEO local & IA pour artisans. Design premium, prix transparents. Breil-sur-Roya, Nice, Côte d'Azur." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Agence Grey — Le web qui rassure" />
+  <meta property="og:description" content="Sites web sur mesure, SEO local & IA pour artisans. Design premium, prix transparents. Agence basée à Breil-sur-Roya." />
+  <meta property="og:image" content="https://grey-v2-site.vercel.app/image/logo%20agence%20charte%20ok%20(1).png" />
+  <meta property="og:url" content="https://grey-v2-site.vercel.app" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Agence Grey" />
+  <meta property="og:locale" content="fr_FR" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Agence Grey — Le web qui rassure" />
+  <meta name="twitter:description" content="Sites web sur mesure, SEO local & IA pour artisans. Design premium, prix transparents." />
+  <meta name="twitter:image" content="https://grey-v2-site.vercel.app/image/logo%20agence%20charte%20ok%20(1).png" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://grey-v2-site.vercel.app" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="image/logo agence charte ok (1).png" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Agence Grey",
+    "description": "Agence web & IA spécialisée dans la création de sites internet pour artisans. Design sur mesure, SEO local, automatisation.",
+    "url": "https://grey-v2-site.vercel.app",
+    "email": "agencegrey06@gmail.com",
+    "telephone": "+33744401792",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "367 route de Ciaus",
+      "addressLocality": "Breil-sur-Roya",
+      "postalCode": "06540",
+      "addressCountry": "FR"
+    },
+    "areaServed": ["Nice", "Côte d'Azur", "Monaco", "Menton"],
+    "priceRange": "€€",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600;1,700&family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════ PRELOADER ═══════════ -->
+  <div class="preloader" id="preloader">
+    <div class="preloader__inner">
+      <div class="preloader__logo">GREY<span>®</span></div>
+      <div class="preloader__count" id="preloaderCount">0</div>
+      <div class="preloader__bar"><span id="preloaderBar"></span></div>
+    </div>
+    <div class="preloader__curtain"></div>
+  </div>
+
+  <!-- ═══════════ CURSEUR CUSTOM ═══════════ -->
+  <div class="cursor" id="cursor">
+    <div class="cursor__dot" id="cursorDot"></div>
+    <div class="cursor__circle" id="cursorCircle">
+      <span class="cursor__label" id="cursorLabel"></span>
+    </div>
+  </div>
+
+  <!-- ═══════════ GRAIN GLOBAL ═══════════ -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ═══════════ NAVIGATION ═══════════ -->
+  <header class="nav" id="nav">
+    <a href="#hero" class="nav__logo magnetic" data-cursor="hover"><img src="image/logo agence charte ok (1).png" alt="Agence Grey" class="nav__logo-img" /></a>
+    <nav class="nav__links">
+      <a href="#services" class="nav__link magnetic" data-cursor="hover"><span data-text="Nos offres">Nos offres</span></a>
+      <a href="#work" class="nav__link magnetic" data-cursor="hover"><span data-text="Réalisations">Réalisations</span></a>
+      <a href="faq.html" class="nav__link magnetic" data-cursor="hover"><span data-text="FAQ">FAQ</span></a>
+      <a href="#studio" class="nav__link magnetic" data-cursor="hover"><span data-text="À propos">À propos</span></a>
+      <a href="#contact" class="nav__link magnetic" data-cursor="hover"><span data-text="Contact">Contact</span></a>
+    </nav>
+    <a href="#contact" class="nav__cta magnetic" data-cursor="hover">
+      <span class="nav__cta-text">Devis gratuit</span>
+      <span class="nav__cta-dot"></span>
+    </a>
+    <button class="nav__burger" id="burger" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ═══════════ MENU MOBILE ═══════════ -->
+  <div class="menu" id="menu">
+    <div class="menu__links">
+      <a href="#services" class="menu__link" data-menu-link><em>01</em>Nos offres</a>
+      <a href="#work" class="menu__link" data-menu-link><em>02</em>Réalisations</a>
+      <a href="#studio" class="menu__link" data-menu-link><em>03</em>À propos</a>
+      <a href="#contact" class="menu__link" data-menu-link><em>04</em>Contact</a>
+    </div>
+    <div class="menu__footer">
+      <a href="mailto:agencegrey06@gmail.com">agencegrey06@gmail.com</a>
+      <p>Breil-sur-Roya — Nice — Côte d'Azur</p>
+    </div>
+  </div>
+
+  <main id="smooth-content">
+
+    <!-- ═══════════ HERO ═══════════ -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+        <div class="hero__orb hero__orb--3"></div>
+        <div class="hero__orb hero__orb--4"></div>
+        <div class="hero__grid"></div>
+        <div class="hero__glow"></div>
+      </div>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow reveal-line">
+          <span class="hero__eyebrow-dot"></span>
+          Agence web &amp; IA — Nice · Côte d'Azur
+        </p>
+
+        <h1 class="hero__title">
+          <span class="hero__line"><span class="hero__word" data-split>Le web</span></span>
+          <span class="hero__line"><span class="hero__word hero__word--outline" data-split>qui rassure</span></span>
+        </h1>
+
+        <div class="hero__bottom">
+          <p class="hero__desc reveal-line">
+            Sites web, référencement local &amp; automatisation IA pour artisans.<br />
+            Visibilité Google, appels qui décrochent, devis qui signent.
+          </p>
+          <a href="#services" class="hero__scroll magnetic" data-cursor="hover">
+            <span class="hero__scroll-circle">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <span>Scroll</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__badge" aria-hidden="true">
+        <svg viewBox="0 0 100 100" class="hero__badge-svg">
+          <defs><path id="circlePath" d="M 50,50 m -37,0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0"/></defs>
+          <text><textPath href="#circlePath">AGENCE GREY • AGENCE GREY • AGENCE GREY • </textPath></text>
+        </svg>
+        <div class="hero__badge-center">✦</div>
+      </div>
+
+      <!-- Marquee bas de hero -->
+      <div class="marquee marquee--hero" aria-hidden="true">
+        <div class="marquee__track" data-marquee>
+          <span>Sites web <i>✦</i> SEO local <i>✦</i> IA vocale <i>✦</i> Devis en ligne <i>✦</i> Artisans <i>✦</i> Climatisation <i>✦</i></span>
+          <span>Sites web <i>✦</i> SEO local <i>✦</i> IA vocale <i>✦</i> Devis en ligne <i>✦</i> Artisans <i>✦</i> Climatisation <i>✦</i></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ NOTRE MÉTHODE ═══════════ -->
+    <section class="intro">
+      <div class="intro__grid">
+        <div class="stat" data-cursor="hover">
+          <span class="stat__num">Sites</span>
+          <span class="stat__label">sur mesure</span>
+        </div>
+        <div class="stat" data-cursor="hover">
+          <span class="stat__num">SEO</span>
+          <span class="stat__label">local optimisé</span>
+        </div>
+        <div class="stat" data-cursor="hover">
+          <span class="stat__num">IA</span>
+          <span class="stat__label">agent vocal 24/7</span>
+        </div>
+        <div class="stat" data-cursor="hover">
+          <span class="stat__num">Nice</span>
+          <span class="stat__label">&amp; Côte d'Azur</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ SERVICES ═══════════ -->
+    <section class="services" id="services" style="background:var(--bg-soft)">
+      <div class="section-head">
+        <span class="section-head__tag">(01) — Nos offres</span>
+        <h2 class="section-head__title" data-split-words>Trois packs, un seul objectif : vous rendre visible</h2>
+      </div>
+
+      <div class="services__list">
+        <article class="service" data-cursor="view" data-cursor-label="Voir">
+          <div class="service__index">01</div>
+          <div class="service__body">
+            <h3 class="service__title">L'Essentiel — 1 490 €</h3>
+            <p class="service__desc">Un site professionnel, clair et moderne, sans engagement mensuel. Design sur mesure, optimisation mobile, SEO local, formation incluse. Parfait pour poser vos premières pierres sur le web.</p>
+          </div>
+          <div class="service__tags"><span>Site vitrine</span><span>Design sur mesure</span><span>SEO local</span></div>
+          <div class="service__arrow"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H8M17 7v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="service__bg" style="--g1:#6d28d9;--g2:#a78bfa"></div>
+        </article>
+
+        <article class="service" data-cursor="view" data-cursor-label="Voir">
+          <div class="service__index">02</div>
+          <div class="service__body">
+            <h3 class="service__title">Le Confort — 1 290 € + 350 €/mois</h3>
+            <p class="service__desc">Site toujours à jour, sécurisé et optimisé. Maintenance mensuelle, hébergement inclus, modifications à la demande, SEO régulier. Notre formule la plus populaire.</p>
+          </div>
+          <div class="service__tags"><span>Maintenance</span><span>Hébergement</span><span>SEO continu</span></div>
+          <div class="service__arrow"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H8M17 7v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="service__bg" style="--g1:#4c1d95;--g2:#8b5cf6"></div>
+        </article>
+
+        <article class="service" data-cursor="view" data-cursor-label="Voir">
+          <div class="service__index">03</div>
+          <div class="service__body">
+            <h3 class="service__title">Le Booster — 1 290 € + sur mesure</h3>
+            <p class="service__desc">Automatisation IA pour accélérer vos ventes. Agent vocal 24/7, rappels automatiques, SMS après appel manqué, demande d'avis Google. Pour ceux qui veulent aller plus loin.</p>
+          </div>
+          <div class="service__tags"><span>Agent IA 24/7</span><span>SMS auto</span><span>Rappels RDV</span></div>
+          <div class="service__arrow"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H8M17 7v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="service__bg" style="--g1:#7c3aed;--g2:#c4b5fd"></div>
+        </article>
+
+        <article class="service" data-cursor="view" data-cursor-label="Voir">
+          <div class="service__index">04</div>
+          <div class="service__body">
+            <h3 class="service__title">Options supplémentaires</h3>
+            <p class="service__desc">Campagnes Google Ads ciblées, création ou refonte de logo, rédaction de contenus SEO, formation avancée. Ajoutez ce dont vous avez besoin, quand vous en avez besoin.</p>
+          </div>
+          <div class="service__tags"><span>Google Ads</span><span>Logo</span><span>Contenu SEO</span></div>
+          <div class="service__arrow"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H8M17 7v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="service__bg" style="--g1:#5b21b6;--g2:#a78bfa"></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ═══════════ PROJETS ═══════════ -->
+    <section class="work" id="work">
+      <div class="section-head">
+        <span class="section-head__tag">(02) — Réalisations</span>
+        <h2 class="section-head__title" data-split-words>Quelques sites qu'on a déjà créés</h2>
+      </div>
+
+      <div class="work__grid">
+        <a href="https://colombet.vercel.app" target="_blank" rel="noopener noreferrer" class="project project--tall" data-cursor="view" data-cursor-label="Voir le projet">
+          <div class="project__visual">
+            <div class="project__preview" data-parallax>
+              <iframe src="https://colombet.vercel.app/#realisations" loading="lazy" sandbox="allow-same-origin allow-scripts"></iframe>
+            </div>
+            <span class="project__year">2026</span>
+          </div>
+          <div class="project__info">
+            <h3 class="project__title">Colombet</h3>
+            <p class="project__meta">Plomberie premium · Le Cannet</p>
+          </div>
+        </a>
+
+        <a href="https://scexpertnuisiblesdratisationprotect.vercel.app" target="_blank" rel="noopener noreferrer" class="project" data-cursor="view" data-cursor-label="Voir le projet">
+          <div class="project__visual">
+            <div class="project__preview" data-parallax>
+              <iframe src="https://scexpertnuisiblesdratisationprotect.vercel.app" loading="lazy" sandbox="allow-same-origin allow-scripts"></iframe>
+            </div>
+            <span class="project__year">2026</span>
+          </div>
+          <div class="project__info">
+            <h3 class="project__title">SC Expert Nuisibles</h3>
+            <p class="project__meta">Dératisation &amp; désinsectisation · Auriol (13)</p>
+          </div>
+        </a>
+
+        <a href="https://clone-prana.vercel.app" target="_blank" rel="noopener noreferrer" class="project" data-cursor="view" data-cursor-label="Voir le projet">
+          <div class="project__visual">
+            <div class="project__preview" data-parallax>
+              <iframe src="https://clone-prana.vercel.app" loading="lazy" sandbox="allow-same-origin allow-scripts"></iframe>
+            </div>
+            <span class="project__year">2024</span>
+          </div>
+          <div class="project__info">
+            <h3 class="project__title">Prana Studio</h3>
+            <p class="project__meta">Yoga Paris · Design élégant &amp; immersif</p>
+          </div>
+        </a>
+
+        <a href="https://studio-360-chi.vercel.app" target="_blank" rel="noopener noreferrer" class="project project--tall" data-cursor="view" data-cursor-label="Voir le projet">
+          <div class="project__visual">
+            <div class="project__preview" data-parallax>
+              <iframe src="https://studio-360-chi.vercel.app/#cours" loading="lazy" sandbox="allow-same-origin allow-scripts"></iframe>
+            </div>
+            <span class="project__year">2025</span>
+          </div>
+          <div class="project__info">
+            <h3 class="project__title">Studio 360</h3>
+            <p class="project__meta">Pole dance · Design Barbie &amp; immersif</p>
+          </div>
+        </a>
+
+        <a href="https://magron-indol.vercel.app" target="_blank" rel="noopener noreferrer" class="project project--wide" data-cursor="view" data-cursor-label="Voir le projet">
+          <div class="project__visual">
+            <div class="project__preview" data-parallax>
+              <iframe src="https://magron-indol.vercel.app" loading="lazy" sandbox="allow-same-origin allow-scripts"></iframe>
+            </div>
+            <span class="project__year">2025</span>
+          </div>
+          <div class="project__info">
+            <h3 class="project__title">Magron Construction</h3>
+            <p class="project__meta">Maçonnerie de luxe · Le Lavandou</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ═══════════ À PROPOS ═══════════ -->
+    <section class="manifesto" id="studio" style="background:var(--bg-soft)">
+      <span class="section-head__tag">(03) — L'agence</span>
+      <p class="manifesto__text" data-reveal-words>
+        Nous sommes Adrien et Ophélie, un duo d'associés basé à Breil-sur-Roya. Nous créons des sites web qui rassurent vos clients et font décrocher votre téléphone. Pas de jargon, pas de promesses floues — juste des sites clairs, un SEO qui ramène du monde, et une IA qui répond quand vous êtes sur un chantier.
+      </p>
+      <div class="manifesto__sign">
+        <span class="manifesto__sign-line"></span>
+        <span>Adrien &amp; Ophélie — L'Agence Grey</span>
+      </div>
+    </section>
+
+    <!-- ═══════════ POURQUOI GREY ═══════════ -->
+    <section class="intro" style="background:var(--bg-lighter);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+      <div class="section-head">
+        <span class="section-head__tag">Ce qui nous distingue</span>
+        <h2 class="section-head__title" data-split-words>Le web qui rassure, concrètement</h2>
+      </div>
+      <div class="intro__grid" style="border-top:none;padding-top:0">
+        <div class="stat" data-cursor="hover">
+          <span class="stat__num" style="font-size:clamp(1.1rem,2vw,1.4rem);background:none;color:var(--white)">Clarté</span>
+          <span class="stat__label">Des prix lisibles, sans surprise. Vous savez ce que vous payez.</span>
+        </div>
+        <div class="stat" data-cursor="hover">
+          <span class="stat__num" style="font-size:clamp(1.1rem,2vw,1.4rem);background:none;color:var(--white)">Proximité</span>
+          <span class="stat__label">Basés à Breil-sur-Roya, on connaît les réalités du terrain.</span>
+        </div>
+        <div class="stat" data-cursor="hover">
+          <span class="stat__num" style="font-size:clamp(1.1rem,2vw,1.4rem);background:none;color:var(--white)">IA</span>
+          <span class="stat__label">Un agent vocal qui décroche 24/7, même quand vous êtes en intervention.</span>
+        </div>
+        <div class="stat" data-cursor="hover">
+          <span class="stat__num" style="font-size:clamp(1.1rem,2vw,1.4rem);background:none;color:var(--white)">Sur mesure</span>
+          <span class="stat__label">Chaque site est unique. Pas de template générique.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ CONTACT / FOOTER ═══════════ -->
+    <footer class="footer" id="contact">
+      <div class="footer__top">
+        <span class="section-head__tag">(04) — Contact</span>
+        <h2 class="footer__title">
+          <span class="footer__title-line" data-split>Un projet</span>
+          <span class="footer__title-line footer__title-line--violet" data-split>en tête&nbsp;?</span>
+        </h2>
+        <a href="mailto:agencegrey06@gmail.com" class="footer__cta magnetic" data-cursor="hover">
+          <span class="footer__cta-text">Parlons-en</span>
+          <span class="footer__cta-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H8M17 7v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+        </a>
+      </div>
+
+      <!-- Formulaire de contact rapide -->
+      <div class="footer__form">
+        <form action="https://formspree.io/f/agencegrey06@gmail.com" method="POST">
+          <div class="footer__form-row">
+            <input type="text" name="name" placeholder="Nom" required />
+            <input type="email" name="email" placeholder="Email" required />
+          </div>
+          <input type="tel" name="phone" placeholder="Téléphone" />
+          <textarea name="message" rows="4" placeholder="Décrivez votre projet..." required></textarea>
+          <button type="submit" class="footer__submit">
+            <span>Envoyer ma demande</span>
+            <svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H8M17 7v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </form>
+      </div>
+
+      <div class="marquee marquee--footer" aria-hidden="true">
+        <div class="marquee__track" data-marquee>
+          <span>agencegrey06@gmail.com <i>✦</i> 07 44 40 17 92 <i>✦</i> agencegrey06@gmail.com <i>✦</i> 07 44 40 17 92 <i>✦</i> </span>
+          <span>agencegrey06@gmail.com <i>✦</i> 07 44 40 17 92 <i>✦</i> agencegrey06@gmail.com <i>✦</i> 07 44 40 17 92 <i>✦</i> </span>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__col">
+          <span class="footer__col-title">Agence</span>
+          <p>367 route de Ciaus<br />06540 Breil-sur-Roya, France</p>
+        </div>
+        <div class="footer__col">
+          <span class="footer__col-title">Contact</span>
+          <div class="footer__socials">
+            <a href="mailto:agencegrey06@gmail.com">agencegrey06@gmail.com</a>
+            <a href="tel:+33744401792">07 44 40 17 92</a>
+            <a href="https://agence-grey.fr" target="_blank" rel="noopener">agence-grey.fr</a>
+          </div>
+        </div>
+        <div class="footer__col footer__col--right">
+          <span class="footer__col-title">© 2026 Agence Grey</span>
+          <p>Le web qui rassure</p>
+          <p style="margin-top:0.5rem">
+            <a href="nice.html" style="color:var(--grey);font-size:0.82rem">Nice</a> ·
+            <a href="cannes.html" style="color:var(--grey);font-size:0.82rem">Cannes</a> ·
+            <a href="monaco.html" style="color:var(--grey);font-size:0.82rem">Monaco</a> ·
+            <a href="menton.html" style="color:var(--grey);font-size:0.82rem">Menton</a>
+          </p>
+          <p style="margin-top:0.3rem">
+            <a href="cgv.html" style="color:var(--grey);font-size:0.82rem">CGV</a> ·
+            <a href="cgu.html" style="color:var(--grey);font-size:0.82rem">CGU</a> ·
+            <a href="mentions-legales.html" style="color:var(--grey);font-size:0.82rem">Mentions légales</a> ·
+            <a href="confidentialite.html" style="color:var(--grey);font-size:0.82rem">Confidentialité</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Librairies CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
