@@ -4,10 +4,11 @@ export function Studio() {
       <section className="manifesto" id="studio" style={{ background: "var(--bg-soft)" }}>
         <span className="section-head__tag">(03) — L&apos;agence</span>
         <p className="manifesto__text" data-reveal-words>
-          Nous sommes Adrien et Ophélie, un duo d&apos;associés basé à Breil-sur-Roya. Nous créons
-          des sites web qui rassurent vos clients et font décrocher votre téléphone. Pas de jargon,
-          pas de promesses floues — juste des sites clairs, un SEO qui ramène du monde, et une IA
-          qui répond quand vous êtes sur un chantier.
+          Nous sommes Adrien et Ophélie, un duo d&apos;associés basé à Breil-sur-Roya. Nous vous
+          accompagnons dans toutes les étapes de la vie de votre studio : création de site web pour
+          développer votre visibilité, design sur-mesure pour coller à votre image, intégration de
+          votre outil de réservation en ligne proprement, optimisation de votre référencement,
+          conseils…
         </p>
         <div className="manifesto__sign">
           <span className="manifesto__sign-line" />
