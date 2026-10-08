@@ -68,12 +68,14 @@ export function Hero() {
       <div className="marquee marquee--hero" aria-hidden="true">
         <div className="marquee__track" data-marquee>
           <span>
-            Studio yoga Nice <i>✦</i> Pole dance Côte d&apos;Azur <i>✦</i> Pilates Nice <i>✦</i>{" "}
-            Reformer Monaco <i>✦</i> Lagree Cannes <i>✦</i> Menton <i>✦</i>
+            Lagree <i>✦</i> Pole dance <i>✦</i> Pilates <i>✦</i> Reformer <i>✦</i> Yoga <i>✦</i>{" "}
+            Danse <i>✦</i> Sites web <i>✦</i> Bien-être <i>✦</i> Eversports <i>✦</i> Bsport <i>✦</i>{" "}
+            SEO <i>✦</i>
           </span>
           <span>
-            Studio yoga Nice <i>✦</i> Pole dance Côte d&apos;Azur <i>✦</i> Pilates Nice <i>✦</i>{" "}
-            Reformer Monaco <i>✦</i> Lagree Cannes <i>✦</i> Menton <i>✦</i>
+            Lagree <i>✦</i> Pole dance <i>✦</i> Pilates <i>✦</i> Reformer <i>✦</i> Yoga <i>✦</i>{" "}
+            Danse <i>✦</i> Sites web <i>✦</i> Bien-être <i>✦</i> Eversports <i>✦</i> Bsport <i>✦</i>{" "}
+            SEO <i>✦</i>
           </span>
         </div>
       </div>
