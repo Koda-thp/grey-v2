@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display, Syne } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Navigation } from "@/components/layout/Navigation";
 import { Animations } from "@/components/ui/Animations";
 import { Cursor } from "@/components/ui/Cursor";
@@ -94,6 +96,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           Aller au contenu principal
         </a>
         <Preloader />
+        <SpeedInsights />
+        <Analytics />
         <Cursor />
         <Grain />
         <Navigation />
