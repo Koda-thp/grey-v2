@@ -89,26 +89,36 @@ export const legalPages: Legal[] = [
     title: "Mentions légales — Agence Grey",
     description: "Mentions légales du site Agence Grey.",
     content: `
+      <p style="color: var(--grey); font-size: 0.9rem; margin-bottom: 2rem;">
+        Dernière mise à jour : 11 septembre 2026
+      </p>
+
       <section>
         <h2>Éditeur du site</h2>
         <p>
-          <strong>Agence Grey</strong><br />
-          367 route de Ciaus<br />
-          06540 Breil-sur-Roya, France<br />
-          Email : agencegrey06@gmail.com<br />
-          Téléphone : 07 44 40 17 92
+          Le site <strong>agence-grey.fr</strong> est édité par <strong>SAS Agence Grey</strong>, 
+          représentée par <strong>Adrien Debarle</strong> et <strong>Ophélie Hutin</strong>.
         </p>
+        <ul>
+          <li><strong>Raison sociale :</strong> SAS Agence Grey</li>
+          <li><strong>Forme juridique :</strong> SAS</li>
+          <li><strong>SIRET :</strong> 105 897 987 00019</li>
+          <li><strong>Capital social :</strong> 400 €</li>
+          <li><strong>Adresse :</strong> 367 route de Ciaus, 06540 Breil-sur-Roya, France</li>
+          <li><strong>Téléphone :</strong> 07 57 81 17 60</li>
+          <li><strong>Email :</strong> agencegrey06@gmail.com</li>
+        </ul>
       </section>
 
       <section>
         <h2>Directeur de la publication</h2>
-        <p>Adrien — Co-fondateur de l'Agence Grey</p>
+        <p>Adrien Debarle, responsable de la publication.</p>
       </section>
 
       <section>
         <h2>Hébergement</h2>
         <p>
-          Le site est hébergé par Vercel Inc.<br />
+          Le site est hébergé par <strong>Vercel Inc.</strong><br />
           340 S Lemon Ave #4133<br />
           Walnut, CA 91789, États-Unis
         </p>
@@ -116,12 +126,42 @@ export const legalPages: Legal[] = [
 
       <section>
         <h2>Propriété intellectuelle</h2>
-        <p>L'ensemble des contenus présents sur le site (textes, images, graphismes, logo, icônes) est la propriété exclusive de l'Agence Grey, sauf mention contraire.</p>
+        <p>
+          L'ensemble des contenus du site (textes, images, logos, vidéos, éléments graphiques) 
+          est protégé par le droit de la propriété intellectuelle. Toute reproduction, représentation 
+          ou diffusion, totale ou partielle, sans autorisation préalable écrite de SAS Agence Grey 
+          est interdite.
+        </p>
+      </section>
+
+      <section>
+        <h2>Responsabilité</h2>
+        <p>
+          SAS Agence Grey s'efforce d'assurer l'exactitude des informations diffusées sur le site, 
+          mais ne saurait être tenue responsable des omissions, inexactitudes ou carences dans la 
+          mise à jour, qu'elles soient de son fait ou du fait des tiers partenaires.
+        </p>
+      </section>
+
+      <section>
+        <h2>Conception du site</h2>
+        <p>Ce site a été conçu et développé par L'Agence Grey.</p>
       </section>
 
       <section>
         <h2>Données personnelles</h2>
-        <p>Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour exercer ces droits : agencegrey06@gmail.com.</p>
+        <p>
+          Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression 
+          de vos données. Pour exercer ces droits : <a href="mailto:agencegrey06@gmail.com">agencegrey06@gmail.com</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>
+          Pour toute question relative au site, vous pouvez nous écrire à 
+          <a href="mailto:agencegrey06@gmail.com">agencegrey06@gmail.com</a>.
+        </p>
       </section>
     `,
   },
