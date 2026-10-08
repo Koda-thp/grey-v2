@@ -69,11 +69,9 @@ export function Studio() {
                 color: "var(--white)",
               }}
             >
-              IA
+              Intégration
             </span>
-            <span className="stat__label">
-              Un agent vocal qui décroche 24/7, même quand vous êtes en intervention.
-            </span>
+            <span className="stat__label">Intégration de votre planning de réservation.</span>
           </div>
           <div className="stat" data-cursor="hover">
             <span
