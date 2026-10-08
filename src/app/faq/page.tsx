@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { Footer } from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "FAQ — Agence Grey | Questions fréquentes sur la création de site web",
+  title: "FAQ — Agence Grey | Questions fréquentes sur la création de site web pour studios",
   description:
-    "Tout savoir sur la création de site web pour artisans : tarifs, délais, SEO local, IA vocale. Agence Grey répond à vos questions.",
+    "Tout savoir sur la création de site web pour studios de yoga, pole dance & pilates : tarifs, délais, SEO local. Agence Grey répond à vos questions.",
 };
 
 interface FAQItem {
@@ -14,72 +14,73 @@ interface FAQItem {
 
 const faqItems: FAQItem[] = [
   {
-    question: "Combien coûte un site web pour un artisan ?",
-    answer: `<p>Chez Agence Grey, un site vitrine pour artisan démarre à <strong>1 490 €</strong>. Ce tarif inclut :</p>
+    question: "Combien coûte un site web pour un studio de yoga ou pole dance ?",
+    answer: `<p>Chez Agence Grey, nous proposons trois formules adaptées aux studios de mouvement :</p>
 <ul>
-  <li>Design 100% sur mesure (pas de template)</li>
-  <li>Optimisation mobile (responsive design)</li>
-  <li>SEO local (mots-clés géolocalisés, Google Business Profile)</li>
-  <li>Formation à l'utilisation</li>
+  <li><strong>Site vitrine — 749 €</strong> : une page unique, design sur-mesure, intégration de votre planning, horaires et tarifs, SEO local</li>
+  <li><strong>Site multipages — 1 149 €</strong> : présentation des cours, profils des professeurs, blog, événements, SEO poussé</li>
+  <li><strong>Pack croissance — 249 €/mois</strong> : maintenance, modifications, visuels événements, optimisation SEO continue</li>
 </ul>
-<p>Une formule avec <strong>maintenance mensuelle</strong> est disponible à <strong>1 290 € + 350 €/mois</strong> (hébergement, mises à jour, SEO continu). Pour l'IA vocale 24/7, le tarif est sur mesure selon vos besoins.</p>`,
+<p>Chaque site est conçu <strong>sur mesure</strong> pour votre activité de studio.</p>`,
   },
   {
-    question: "Qu'est-ce que l'IA vocale 24/7 et comment ça fonctionne ?",
-    answer: `<p>Notre agent IA vocal répond automatiquement aux appels de vos clients <strong>24h/24 et 7j/7</strong>. Il peut :</p>
+    question: "Quels types de studios peuvent bénéficier de vos services ?",
+    answer: `<p>Nous sommes spécialisés pour les <strong>studios de mouvement</strong> :</p>
 <ul>
-  <li>Prendre des rendez-vous et les ajouter à votre agenda</li>
-  <li>Répondre aux questions fréquentes (tarifs, disponibilités, zone d'intervention)</li>
-  <li>Envoyer des devis par SMS en temps réel</li>
-  <li>Vous notifier immédiatement des appels urgents</li>
+  <li><strong>Yoga :</strong> studios de hatha, vinyasa, ashtanga, hot yoga, aerial yoga</li>
+  <li><strong>Pole dance :</strong> studios de pole sport, pole fitness, exotic pole</li>
+  <li><strong>Pilates :</strong> studios de pilates mat, reformer, Cadillac</li>
+  <li><strong>Reformer & Lagree :</strong> studios Megaformer, reformer pilates</li>
+  <li><strong>Danse :</strong> studios de barre au sol, danse contemporaine, hip-hop</li>
 </ul>
-<p>L'IA est entraînée spécifiquement sur votre activité pour des réponses précises et naturelles. Vos clients ont l'impression de parler à un vrai standardiste.</p>`,
+<p>Chaque site est conçu <strong>sur mesure</strong> avec des mots-clés qui correspondent exactement à ce que vos élèves cherchent sur Google.</p>`,
   },
   {
-    question: "Quels types d'artisans peuvent bénéficier de vos services ?",
-    answer: `<p>Nous travaillons avec <strong>tous les artisans</strong> :</p>
+    question: "Proposez-vous l'intégration de plannings de réservation ?",
+    answer: `<p>Oui, nous pouvons <strong>intégrer votre planning</strong> directement sur votre site. Nous travaillons avec les solutions les plus utilisées par les studios :</p>
 <ul>
-  <li><strong>Bâtiment :</strong> climaticiens, plombiers, chauffagistes, électriciens, maçons, menuisiers, peintres, couvreurs, paysagistes, serruriers</li>
-  <li><strong>Bien-être & sport :</strong> studios de yoga, pilates, pole dance, salles de sport, spas</li>
-  <li><strong>Services :</strong> nettoyage, dépannage, livraison, esthétique à domicile</li>
+  <li>Planning Studio</li>
+  <li>Les Wecs</li>
+  <li>ClubSystem</li>
+  <li>WellnessManager</li>
+  <li>OuestFit</li>
+  <li>Votre propre outil de réservation</li>
 </ul>
-<p>Chaque site est conçu <strong>sur mesure</strong> pour votre activité spécifique, avec des mots-clés qui correspondent exactement à ce que vos clients cherchent sur Google.</p>`,
+<p>Vos élèves peuvent réserver leurs cours directement depuis votre site, sans passer par une plateforme tierce.</p>`,
   },
   {
-    question: "En combien de temps mon site sera-t-il en ligne ?",
-    answer: `<p>Le délai standard est de <strong>2 à 4 semaines</strong> selon la complexité :</p>
-<ol>
-  <li><strong>Brief</strong> (J1-J2) : on échange sur votre activité et vos objectifs</li>
-  <li><strong>Maquette</strong> (J5) : vous recevez une proposition visuelle</li>
-  <li><strong>Intégration</strong> (J6-J15) : nous codons le site et optimisons le SEO</li>
-  <li><strong>Formation</strong> (J16) : on vous apprend à gérer votre site</li>
-  <li><strong>Mise en ligne</strong> (J17-J20) : votre site est live et visible sur Google</li>
-</ol>
-<p>Les sites les plus simples peuvent être livrés en <strong>10 jours</strong>.</p>`,
-  },
-  {
-    question: "Qu'est-ce que le SEO local et pourquoi est-ce important ?",
-    answer: `<p>Le <strong>SEO local</strong> (Search Engine Optimization) permet à votre site d'apparaître dans les résultats Google quand un client cherche un artisan près de chez lui. Exemple : « plombier Nice », « climatisation Cannes », « cours de yoga Menton ».</p>
+    question: "Qu'est-ce que le SEO local pour les studios de mouvement ?",
+    answer: `<p>Le <strong>SEO local</strong> permet à votre studio d'apparaître dans les résultats Google quand un futur élève cherche un cours près de chez lui. Exemple : « studio yoga Nice », « pole dance Cannes », « pilates reformer Monaco ».</p>
 <p><strong>Notre méthode :</strong></p>
 <ul>
-  <li>Optimisation on-page avec des mots-clés géolocalisés</li>
+  <li>Optimisation on-page avec des mots-clés géolocalisés (votre discipline + votre ville)</li>
   <li>Création et optimisation de votre <strong>fiche Google Business Profile</strong></li>
   <li>Maillage local (liens depuis d'autres sites de la région)</li>
   <li>Contenu optimisé pour chaque ville où vous intervenez</li>
 </ul>
-<p>C'est le moyen le plus efficace d'attirer des clients de votre zone géographique, sans payer de publicité.</p>`,
+<p>C'est le moyen le plus efficace d'attirer des élèves dans votre zone géographique, sans payer de publicité.</p>`,
   },
   {
-    question: "Proposez-vous la maintenance après la création du site ?",
-    answer: `<p>Oui, notre formule <strong>Confort (350 €/mois)</strong> inclut :</p>
+    question: "Comment donnez-vous de la visibilité à votre studio dès son ouverture ?",
+    answer: `<p>Notre approche permet de <strong>donner de la visibilité à votre studio dès son ouverture</strong> :</p>
 <ul>
-  <li>Hébergement sécurisé et rapide</li>
-  <li>Mises à jour régulières (sécurité, fonctionnalités)</li>
-  <li>Modifications de contenu à la demande</li>
-  <li>Suivi SEO mensuel avec rapport</li>
-  <li>Support prioritaire par email et téléphone</li>
+  <li><strong>SEO local optimisé dès le lancement</strong> : votre site est indexé sur Google avec les bons mots-clés (discipline + ville)</li>
+  <li><strong>Fiche Google Business Profile</strong> : nous créons et optimisons votre fiche pour apparaître dans le pack local</li>
+  <li><strong>Site rapide et mobile-first</strong> : vos futurs élèves réservent facilement depuis leur smartphone</li>
+  <li><strong>Pages dédiées par ville</strong> : si vous intervenez sur plusieurs communes, nous créons des pages SEO pour chacune</li>
 </ul>
-<p>Votre site reste toujours à jour, rapide et sécurisé. Vous pouvez vous concentrer sur votre métier.</p>`,
+<p>Résultat : dès la mise en ligne, votre studio apparaît dans les recherches locales.</p>`,
+  },
+  {
+    question: "En combien de temps mon site sera-t-il en ligne ?",
+    answer: `<p>Le délai standard est de <strong>2 à 3 semaines</strong> selon la formule :</p>
+<ol>
+  <li><strong>Brief</strong> (J1-J2) : on échange sur votre studio, vos cours, vos professeurs</li>
+  <li><strong>Maquette</strong> (J5) : vous recevez une proposition visuelle</li>
+  <li><strong>Intégration</strong> (J6-J12) : nous codons le site, intégrons votre planning, optimisons le SEO</li>
+  <li><strong>Mise en ligne</strong> (J13-J15) : votre site est live et visible sur Google</li>
+</ol>
+<p>Les sites vitrine peuvent être livrés en <strong>10 jours</strong>.</p>`,
   },
   {
     question: "Dans quelles villes intervenez-vous ?",
@@ -91,27 +92,17 @@ const faqItems: FAQItem[] = [
   <li><a href="/villes/menton" style="color:var(--violet-light)">Menton</a>, Roquebrune-Cap-Martin</li>
   <li>Antibes, Grasse, Saint-Laurent-du-Var, Cagnes-sur-Mer</li>
 </ul>
-<p>Nous avons des <strong>pages dédiées</strong> pour chaque ville avec du contenu SEO local optimisé.</p>`,
-  },
-  {
-    question: "Comment se déroule la création de mon site web étape par étape ?",
-    answer: `<p>Notre processus en 5 étapes :</p>
-<ol>
-  <li><strong>Brief & découverte</strong> — On échange sur votre activité, vos clients, vos objectifs. On définit ensemble le ton et le style.</li>
-  <li><strong>Maquette visuelle</strong> — Sous 5 jours ouvrés, vous recevez une proposition de design. Vous validez ou demandez des ajustements.</li>
-  <li><strong>Développement & SEO</strong> — On code le site, on rédige les textes, on optimise pour Google. Le tout en 1 à 2 semaines.</li>
-  <li><strong>Formation</strong> — On vous apprend à modifier vos textes, ajouter des photos, consulter vos statistiques.</li>
-  <li><strong>Mise en ligne</strong> — Votre site est en ligne, indexé sur Google, et vous commencez à recevoir des appels.</li>
-</ol>`,
+<p>Nous avons des <strong>pages dédiées</strong> pour chaque ville avec du contenu SEO local optimisé pour les studios de mouvement.</p>`,
   },
   {
     question: "Qu'est-ce qui distingue Agence Grey des autres agences web ?",
     answer: `<ul>
-  <li><strong>Spécialisation artisans</strong> — On ne fait pas de sites pour tout le monde. On connaît vos problématiques : appels manqués, devis, saisonnalité.</li>
-  <li><strong>IA intégrée</strong> — Agent vocal 24/7, SMS automatiques, rappels de RDV. Des outils concrets qui vous font gagner du temps.</li>
-  <li><strong>Prix transparents</strong> — Pas de surprise. Tout est affiché, clair, sans engagement caché.</li>
-  <li><strong>Proximité</strong> — Basés à Breil-sur-Roya, on se déplace sur la Côte d'Azur. Vous avez un interlocuteur humain, pas un chatbot.</li>
-  <li><strong>Design premium</strong> — Chaque site est unique. Pas de template générique.</li>
+  <li><strong>Spécialisation studios de mouvement</strong> — On connaît vos problématiques : plannings, saisonnalité, profs indépendants, fidélisation des élèves.</li>
+  <li><strong>Intégration planning</strong> — Votre outil de réservation directement sur votre site, pas de lien externe.</li>
+  <li><strong>Visibilité dès l'ouverture</strong> — SEO local optimisé dès le lancement pour attirer vos premiers élèves.</li>
+  <li><strong>Prix transparents</strong> — 749 €, 1 149 € ou 249 €/mois. Pas de surprise.</li>
+  <li><strong>Proximité</strong> — Basés à Breil-sur-Roya, on se déplace sur la Côte d'Azur. Vous avez un interlocuteur humain.</li>
+  <li><strong>Design premium</strong> — Chaque site est unique, pas de template générique.</li>
 </ul>`,
   },
 ];

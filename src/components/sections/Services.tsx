@@ -9,35 +9,27 @@ interface Service {
 const services: Service[] = [
   {
     index: "01",
-    title: "L'Essentiel — 1 490 €",
+    title: "Site vitrine — 749 €",
     description:
-      "Un site professionnel, clair et moderne, sans engagement mensuel. Design sur mesure, optimisation mobile, SEO local, formation incluse. Parfait pour poser vos premières pierres sur le web.",
-    tags: ["Site vitrine", "Design sur mesure", "SEO local"],
+      "Une page unique, design sur-mesure pour votre studio. Intégration de votre planning de réservation, horaires et tarifs. SEO local pour apparaître sur Google dès l'ouverture de votre studio.",
+    tags: ["Site vitrine", "Design sur-mesure", "Intégration planning", "SEO local"],
     gradient: { g1: "#6d28d9", g2: "#a78bfa" },
   },
   {
     index: "02",
-    title: "Le Confort — 1 290 € + 350 €/mois",
+    title: "Site multipages — 1 149 €",
     description:
-      "Site toujours à jour, sécurisé et optimisé. Maintenance mensuelle, hébergement inclus, modifications à la demande, SEO régulier. Notre formule la plus populaire.",
-    tags: ["Maintenance", "Hébergement", "SEO continu"],
+      "Site complet avec plusieurs pages : présentation des cours, profils des professeurs, page événements, blog, FAQ. SEO poussé + GEO pour dominer les recherches locales.",
+    tags: ["Multipages", "SEO poussé", "Blog & événements", "Présentation cours"],
     gradient: { g1: "#4c1d95", g2: "#8b5cf6" },
   },
   {
     index: "03",
-    title: "Le Booster — 1 290 € + sur mesure",
+    title: "Pack croissance & maintenance — 249 €/mois",
     description:
-      "Automatisation IA pour accélérer vos ventes. Agent vocal 24/7, rappels automatiques, SMS après appel manqué, demande d'avis Google. Pour ceux qui veulent aller plus loin.",
-    tags: ["Agent IA 24/7", "SMS auto", "Rappels RDV"],
+      "Mises à jour de sécurité, modifications sur demande, création de visuels pour vos événements. Optimisation SEO continue, accompagnement référencement et conseils stratégiques.",
+    tags: ["Maintenance", "SEO continu", "Accompagnement", "Création visuels"],
     gradient: { g1: "#7c3aed", g2: "#c4b5fd" },
-  },
-  {
-    index: "04",
-    title: "Options supplémentaires",
-    description:
-      "Campagnes Google Ads ciblées, création ou refonte de logo, rédaction de contenus SEO, formation avancée. Ajoutez ce dont vous avez besoin, quand vous en avez besoin.",
-    tags: ["Google Ads", "Logo", "Contenu SEO"],
-    gradient: { g1: "#5b21b6", g2: "#a78bfa" },
   },
 ];
 

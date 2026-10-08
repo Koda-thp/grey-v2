@@ -45,10 +45,16 @@ export function Navigation() {
 
   const toggleMenu = () => setMenuOpen((prev) => !prev);
 
+  const scrollToTop = () => {
+    if (window.location.pathname === "/") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
+
   return (
     <>
       <header className="nav" ref={navRef}>
-        <Link href="/" className="nav__logo magnetic" data-cursor="hover">
+        <Link href="/" className="nav__logo magnetic" data-cursor="hover" onClick={scrollToTop}>
           <Image
             src="/image/logo.png"
             alt="Agence Grey"
@@ -92,6 +98,9 @@ export function Navigation() {
 
       <div className={`menu ${menuOpen ? "is-open" : ""}`} ref={menuRef}>
         <div className="menu__links">
+          <Link href="/" className="menu__link" onClick={toggleMenu}>
+            <em>00</em>Accueil
+          </Link>
           <Link href="/#services" className="menu__link" onClick={toggleMenu}>
             <em>01</em>Nos offres
           </Link>

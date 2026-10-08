@@ -4,25 +4,25 @@ export const cities: City[] = [
   {
     slug: "nice",
     name: "Nice",
-    title: "Agence Web Nice — Création site internet pour artisans | Agence Grey",
+    title: "Agence Web Nice — Sites pour studios de yoga, pole dance & pilates | Agence Grey",
     description:
-      "Agence web à Nice spécialisée dans la création de sites internet pour artisans. Design sur mesure, SEO local, IA vocale 24/7. Devis gratuit en 24h.",
+      "Agence web à Nice spécialisée dans la création de sites internet pour studios de mouvement. Yoga, pole dance, pilates, reformer, lagree. SEO local Côte d'Azur. Devis gratuit en 24h.",
     areaServed: "Nice",
-    heroTitle: "Votre site d'artisan à Nice",
+    heroTitle: "Votre site de studio à Nice",
     heroSubtitle:
-      "Création de sites web pour artisans à Nice. Climatisation, plomberie, chauffage, yoga, pole dance — on crée le site qui rassure vos clients et attire les appels.",
+      "Création de sites web pour studios de yoga, pole dance, pilates, reformer et lagree à Nice. Donnez de la visibilité à votre studio dès son ouverture, intégrez votre planning de réservation.",
     stats: [
       {
         label: "Nice",
         description: "Basés à 30 min de Nice, on connaît le bassin niçois et ses attentes.",
       },
       {
-        label: "Artisans",
-        description: "Climaticiens, plombiers, chauffagistes : on parle votre métier.",
+        label: "Studios",
+        description: "Yoga, pole dance, pilates, reformer, lagree : on connaît votre univers.",
       },
       {
         label: "SEO Local",
-        description: 'Positionné sur "agence web Nice", "création site artisan Nice".',
+        description: 'Positionné sur "studio yoga Nice", "pole dance Nice", "pilates Nice".',
       },
       {
         label: "Réactif",
@@ -31,49 +31,49 @@ export const cities: City[] = [
     ],
     faq: [
       {
-        question: "Combien coûte un site web pour un artisan à Nice ?",
+        question: "Combien coûte un site web pour un studio à Nice ?",
         answer:
-          "Chez Agence Grey, un site vitrine pour artisan démarre à 1 490 €. Ce tarif inclut le design sur mesure, l'optimisation mobile, le SEO local pour Nice et une formation. Pour un site avec maintenance mensuelle, comptez 1 290 € + 350 €/mois.",
+          "Chez Agence Grey, nous proposons trois formules : Site vitrine à 749 € (une page, planning intégré, SEO local), Site multipages à 1 149 € (présentation des cours, professeurs, blog, événements), et Pack croissance à 249 €/mois (maintenance, SEO continu, visuels événements).",
       },
       {
         question: "Pourquoi choisir une agence web à Nice plutôt qu'une agence nationale ?",
         answer:
-          "Une agence web basée près de Nice comprend les spécificités du marché local : clientèle saisonnière, importance du référencement géolocalisé, concurrence artisanale dense. Agence Grey est à Breil-sur-Roya, à 30 minutes de Nice — on connaît le terrain.",
+          "Une agence web basée près de Nice comprend les spécificités du marché local : clientèle saisonnière, importance du référencement géolocalisé, concurrence entre studios. Agence Grey est à Breil-sur-Roya, à 30 minutes de Nice — on connaît le terrain.",
       },
       {
         question: "Proposez-vous du SEO local pour apparaître sur Google à Nice ?",
         answer:
-          "Oui, le SEO local est au cœur de notre offre. Nous optimisons votre site pour les recherches « artisan + Nice », nous créons et optimisons votre fiche Google Business Profile, et nous travaillons votre maillage local.",
+          "Oui, le SEO local est au cœur de notre offre. Nous optimisons votre site pour les recherches « studio yoga Nice », « pole dance Nice », « pilates Nice », nous créons et optimisons votre fiche Google Business Profile, et nous travaillons votre maillage local.",
       },
       {
-        question: "Quel délai pour créer un site internet d'artisan à Nice ?",
+        question: "Quel délai pour créer un site internet de studio à Nice ?",
         answer:
-          "Le délai standard est de 2 à 4 semaines selon la complexité. Nous livrons d'abord une maquette sous 5 jours ouvrés, puis nous intégrons le contenu et finalisons le SEO.",
+          "Le délai standard est de 2 à 3 semaines selon la formule. Nous livrons d'abord une maquette sous 5 jours ouvrés, puis nous intégrons le contenu, votre planning et finalisons le SEO.",
       },
     ],
   },
   {
     slug: "cannes",
     name: "Cannes",
-    title: "Agence Web Cannes — Création site internet pour artisans | Agence Grey",
+    title: "Agence Web Cannes — Sites pour studios de yoga, pole dance & pilates | Agence Grey",
     description:
-      "Agence web à Cannes spécialisée dans la création de sites internet pour artisans. Design sur mesure, SEO local, IA vocale 24/7. Devis gratuit en 24h.",
+      "Agence web à Cannes spécialisée dans la création de sites internet pour studios de mouvement. Yoga, pole dance, pilates, reformer, lagree. SEO local Côte d'Azur. Devis gratuit en 24h.",
     areaServed: "Cannes",
-    heroTitle: "Votre site d'artisan à Cannes",
+    heroTitle: "Votre site de studio à Cannes",
     heroSubtitle:
-      "Création de sites web pour artisans à Cannes. Climatisation, plomberie, chauffage, yoga, pole dance — on crée le site qui rassure vos clients et attire les appels.",
+      "Création de sites web pour studios de yoga, pole dance, pilates, reformer et lagree à Cannes. Donnez de la visibilité à votre studio dès son ouverture, intégrez votre planning de réservation.",
     stats: [
       {
         label: "Cannes",
         description: "Basés à 45 min de Cannes, on connaît le marché cannois et ses exigences.",
       },
       {
-        label: "Artisans",
-        description: "Climaticiens, plombiers, chauffagistes : on parle votre métier.",
+        label: "Studios",
+        description: "Yoga, pole dance, pilates, reformer, lagree : on connaît votre univers.",
       },
       {
         label: "SEO Local",
-        description: 'Positionné sur "agence web Cannes", "création site artisan Cannes".',
+        description: 'Positionné sur "studio yoga Cannes", "pole dance Cannes", "pilates Cannes".',
       },
       {
         label: "Réactif",
@@ -82,9 +82,9 @@ export const cities: City[] = [
     ],
     faq: [
       {
-        question: "Combien coûte un site web pour un artisan à Cannes ?",
+        question: "Combien coûte un site web pour un studio à Cannes ?",
         answer:
-          "Chez Agence Grey, un site vitrine pour artisan démarre à 1 490 €. Ce tarif inclut le design sur mesure, l'optimisation mobile, le SEO local pour Cannes et une formation.",
+          "Chez Agence Grey, nous proposons trois formules : Site vitrine à 749 € (une page, planning intégré, SEO local), Site multipages à 1 149 € (présentation des cours, professeurs, blog, événements), et Pack croissance à 249 €/mois (maintenance, SEO continu, visuels événements).",
       },
       {
         question: "Pourquoi choisir une agence web à Cannes ?",
@@ -96,25 +96,25 @@ export const cities: City[] = [
   {
     slug: "monaco",
     name: "Monaco",
-    title: "Agence Web Monaco — Création site internet pour artisans | Agence Grey",
+    title: "Agence Web Monaco — Sites pour studios de yoga, pole dance & pilates | Agence Grey",
     description:
-      "Agence web à Monaco spécialisée dans la création de sites internet pour artisans. Design sur mesure, SEO local, IA vocale 24/7. Devis gratuit en 24h.",
+      "Agence web à Monaco spécialisée dans la création de sites internet pour studios de mouvement. Yoga, pole dance, pilates, reformer, lagree. SEO local Côte d'Azur. Devis gratuit en 24h.",
     areaServed: "Monaco",
-    heroTitle: "Votre site d'artisan à Monaco",
+    heroTitle: "Votre site de studio à Monaco",
     heroSubtitle:
-      "Création de sites web pour artisans à Monaco. Climatisation, plomberie, chauffage, yoga, pole dance — on crée le site qui rassure vos clients et attire les appels.",
+      "Création de sites web pour studios de yoga, pole dance, pilates, reformer et lagree à Monaco. Donnez de la visibilité à votre studio dès son ouverture, intégrez votre planning de réservation.",
     stats: [
       {
         label: "Monaco",
         description: "Basés à 1h de Monaco, on connaît le marché monégasque et ses exigences.",
       },
       {
-        label: "Artisans",
-        description: "Climaticiens, plombiers, chauffagistes : on parle votre métier.",
+        label: "Studios",
+        description: "Yoga, pole dance, pilates, reformer, lagree : on connaît votre univers.",
       },
       {
         label: "SEO Local",
-        description: 'Positionné sur "agence web Monaco", "création site artisan Monaco".',
+        description: 'Positionné sur "studio yoga Monaco", "pole dance Monaco", "pilates Monaco".',
       },
       {
         label: "Réactif",
@@ -123,39 +123,39 @@ export const cities: City[] = [
     ],
     faq: [
       {
-        question: "Combien coûte un site web pour un artisan à Monaco ?",
+        question: "Combien coûte un site web pour un studio à Monaco ?",
         answer:
-          "Chez Agence Grey, un site vitrine pour artisan démarre à 1 490 €. Ce tarif inclut le design sur mesure, l'optimisation mobile, le SEO local pour Monaco et une formation.",
+          "Chez Agence Grey, nous proposons trois formules : Site vitrine à 749 € (une page, planning intégré, SEO local), Site multipages à 1 149 € (présentation des cours, professeurs, blog, événements), et Pack croissance à 249 €/mois (maintenance, SEO continu, visuels événements).",
       },
       {
         question: "Intervenez-vous à Monaco et Beausoleil ?",
         answer:
-          "Oui, nous intervenons sur Monaco, Beausoleil, Cap d'Ail et toute la zone frontalière. Nous connaissons les spécificités du marché monégasque.",
+          "Oui, nous intervenons sur Monaco, Beausoleil, Cap d'Ail et toute la zone frontalière. Nous connaissons les spécificités du marché monégasque pour les studios de mouvement.",
       },
     ],
   },
   {
     slug: "menton",
     name: "Menton",
-    title: "Agence Web Menton — Création site internet pour artisans | Agence Grey",
+    title: "Agence Web Menton — Sites pour studios de yoga, pole dance & pilates | Agence Grey",
     description:
-      "Agence web à Menton spécialisée dans la création de sites internet pour artisans. Design sur mesure, SEO local, IA vocale 24/7. Devis gratuit en 24h.",
+      "Agence web à Menton spécialisée dans la création de sites internet pour studios de mouvement. Yoga, pole dance, pilates, reformer, lagree. SEO local Côte d'Azur. Devis gratuit en 24h.",
     areaServed: "Menton",
-    heroTitle: "Votre site d'artisan à Menton",
+    heroTitle: "Votre site de studio à Menton",
     heroSubtitle:
-      "Création de sites web pour artisans à Menton. Climatisation, plomberie, chauffage, yoga, pole dance — on crée le site qui rassure vos clients et attire les appels.",
+      "Création de sites web pour studios de yoga, pole dance, pilates, reformer et lagree à Menton. Donnez de la visibilité à votre studio dès son ouverture, intégrez votre planning de réservation.",
     stats: [
       {
         label: "Menton",
         description: "Basés à 50 min de Menton, on connaît la Riviera mentonnaise.",
       },
       {
-        label: "Artisans",
-        description: "Climaticiens, plombiers, chauffagistes : on parle votre métier.",
+        label: "Studios",
+        description: "Yoga, pole dance, pilates, reformer, lagree : on connaît votre univers.",
       },
       {
         label: "SEO Local",
-        description: 'Positionné sur "agence web Menton", "création site artisan Menton".',
+        description: 'Positionné sur "studio yoga Menton", "pole dance Menton", "pilates Menton".',
       },
       {
         label: "Réactif",
@@ -164,9 +164,9 @@ export const cities: City[] = [
     ],
     faq: [
       {
-        question: "Combien coûte un site web pour un artisan à Menton ?",
+        question: "Combien coûte un site web pour un studio à Menton ?",
         answer:
-          "Chez Agence Grey, un site vitrine pour artisan démarre à 1 490 €. Ce tarif inclut le design sur mesure, l'optimisation mobile, le SEO local pour Menton et une formation.",
+          "Chez Agence Grey, nous proposons trois formules : Site vitrine à 749 € (une page, planning intégré, SEO local), Site multipages à 1 149 € (présentation des cours, professeurs, blog, événements), et Pack croissance à 249 €/mois (maintenance, SEO continu, visuels événements).",
       },
       {
         question: "Intervenez-vous à Menton et Roquebrune-Cap-Martin ?",

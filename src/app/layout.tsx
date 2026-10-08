@@ -33,13 +33,13 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://agence-grey.fr"),
-  title: "Agence Grey — Agence web & IA pour artisans | Nice · Côte d'Azur",
+  title: "Agence Grey — Sites web pour studios de yoga, pole dance & pilates | Côte d'Azur",
   description:
-    "Sites web sur mesure, SEO local & IA pour artisans. Design premium, prix transparents. Breil-sur-Roya, Nice, Côte d'Azur.",
+    "Sites web sur mesure pour studios de mouvement. Yoga, pole dance, pilates, reformer, lagree. Design premium, SEO local Côte d'Azur.",
   openGraph: {
     title: "Agence Grey — Le web qui rassure",
     description:
-      "Sites web sur mesure, SEO local & IA pour artisans. Design premium, prix transparents. Agence basée à Breil-sur-Roya.",
+      "Sites web sur mesure pour studios de mouvement. Yoga, pole dance, pilates, reformer, lagree. Design premium, SEO local Côte d'Azur. Agence basée à Breil-sur-Roya.",
     images: ["/image/logo.png"],
     url: "https://agence-grey.fr",
     type: "website",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Agence Grey — Le web qui rassure",
     description:
-      "Sites web sur mesure, SEO local & IA pour artisans. Design premium, prix transparents.",
+      "Sites web sur mesure pour studios de mouvement. Yoga, pole dance, pilates, reformer, lagree. Design premium, SEO local Côte d'Azur.",
     images: ["/image/logo.png"],
   },
   alternates: {
@@ -63,7 +63,7 @@ const jsonLd = {
   "@type": "LocalBusiness",
   name: "Agence Grey",
   description:
-    "Agence web & IA spécialisée dans la création de sites internet pour artisans. Design sur mesure, SEO local, automatisation.",
+    "Agence web spécialisée dans la création de sites internet pour studios de yoga, pole dance, pilates, reformer et lagree. Design sur mesure, SEO local Côte d'Azur.",
   url: "https://agence-grey.fr",
   email: "agencegrey06@gmail.com",
   telephone: "+33744401792",

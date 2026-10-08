@@ -31,9 +31,10 @@ export function Hero() {
 
         <div className="hero__bottom">
           <p className="hero__desc reveal-line">
-            Sites web, référencement local &amp; automatisation IA pour artisans.
+            Sites web, SEO local &amp; automatisation pour studios de yoga, pole dance, pilates,
+            reformer et lagree.
             <br />
-            Visibilité Google, appels qui décrochent, devis qui signent.
+            Visibilité Google dès l&apos;ouverture, plannings intégrés, appels qui décrochent.
           </p>
           <a href="#services" className="hero__scroll magnetic" data-cursor="hover">
             <span className="hero__scroll-circle">
@@ -67,12 +68,12 @@ export function Hero() {
       <div className="marquee marquee--hero" aria-hidden="true">
         <div className="marquee__track" data-marquee>
           <span>
-            Sites web <i>✦</i> SEO local <i>✦</i> IA vocale <i>✦</i> Devis en ligne <i>✦</i>{" "}
-            Artisans <i>✦</i> Climatisation <i>✦</i>
+            Studio yoga Nice <i>✦</i> Pole dance Côte d&apos;Azur <i>✦</i> Pilates Nice <i>✦</i>{" "}
+            Reformer Monaco <i>✦</i> Lagree Cannes <i>✦</i> Menton <i>✦</i>
           </span>
           <span>
-            Sites web <i>✦</i> SEO local <i>✦</i> IA vocale <i>✦</i> Devis en ligne <i>✦</i>{" "}
-            Artisans <i>✦</i> Climatisation <i>✦</i>
+            Studio yoga Nice <i>✦</i> Pole dance Côte d&apos;Azur <i>✦</i> Pilates Nice <i>✦</i>{" "}
+            Reformer Monaco <i>✦</i> Lagree Cannes <i>✦</i> Menton <i>✦</i>
           </span>
         </div>
       </div>

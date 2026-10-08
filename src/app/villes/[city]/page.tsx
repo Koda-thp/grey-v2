@@ -81,7 +81,7 @@ export default async function CityPage({ params }: CityPageProps) {
             </span>
             <span className="hero__line">
               <span className="hero__word hero__word--outline" data-split>
-                d&apos;artisan
+                de studio
               </span>
             </span>
             <span className="hero__line">
@@ -97,12 +97,12 @@ export default async function CityPage({ params }: CityPageProps) {
         <div className="marquee marquee--hero" aria-hidden="true">
           <div className="marquee__track" data-marquee>
             <span>
-              {cityData.name} <i>✦</i> Artisans <i>✦</i> SEO local <i>✦</i> IA vocale <i>✦</i> Sites
-              web <i>✦</i> Côte d&apos;Azur <i>✦</i>
+              {cityData.name} <i>✦</i> Yoga <i>✦</i> Pole dance <i>✦</i> Pilates <i>✦</i> Reformer{" "}
+              <i>✦</i> Lagree <i>✦</i> Côte d&apos;Azur <i>✦</i>
             </span>
             <span>
-              {cityData.name} <i>✦</i> Artisans <i>✦</i> SEO local <i>✦</i> IA vocale <i>✦</i> Sites
-              web <i>✦</i> Côte d&apos;Azur <i>✦</i>
+              {cityData.name} <i>✦</i> Yoga <i>✦</i> Pole dance <i>✦</i> Pilates <i>✦</i> Reformer{" "}
+              <i>✦</i> Lagree <i>✦</i> Côte d&apos;Azur <i>✦</i>
             </span>
           </div>
         </div>
@@ -112,7 +112,7 @@ export default async function CityPage({ params }: CityPageProps) {
         <div className="section-head">
           <span className="section-head__tag">Agence web à {cityData.name}</span>
           <h2 className="section-head__title" data-split-words>
-            Pourquoi les artisans{" "}
+            Pourquoi les studios{" "}
             {cityData.name === "Nice"
               ? "niçois"
               : cityData.name === "Cannes"
