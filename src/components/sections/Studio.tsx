@@ -58,7 +58,8 @@ export function Studio() {
               Proximité
             </span>
             <span className="stat__label">
-              Basés à Breil-sur-Roya, on connaît les réalités du terrain.
+              On connaît les réalités et les besoins d'un studio : visibilité et facilité de
+              réservation.
             </span>
           </div>
           <div className="stat" data-cursor="hover">
@@ -70,9 +71,11 @@ export function Studio() {
                 color: "var(--white)",
               }}
             >
-              Intégration
+              Accompagnement
             </span>
-            <span className="stat__label">Intégration de votre planning de réservation.</span>
+            <span className="stat__label">
+              Conseils dans toutes les étapes de la vie de votre studio.
+            </span>
           </div>
           <div className="stat" data-cursor="hover">
             <span
