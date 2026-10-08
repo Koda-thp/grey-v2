@@ -6,12 +6,12 @@ export function Footer() {
       <div className="marquee marquee--footer" aria-hidden="true">
         <div className="marquee__track" data-marquee>
           <span>
-            agencegrey06@gmail.com <i>✦</i> 07 44 40 17 92 <i>✦</i> agencegrey06@gmail.com <i>✦</i>{" "}
-            07 44 40 17 92 <i>✦</i>{" "}
+            agencegrey06@gmail.com <i>✦</i> 07 57 81 17 60 <i>✦</i> agencegrey06@gmail.com <i>✦</i>{" "}
+            07 57 81 17 60 <i>✦</i>{" "}
           </span>
           <span>
-            agencegrey06@gmail.com <i>✦</i> 07 44 40 17 92 <i>✦</i> agencegrey06@gmail.com <i>✦</i>{" "}
-            07 44 40 17 92 <i>✦</i>{" "}
+            agencegrey06@gmail.com <i>✦</i> 07 57 81 17 60 <i>✦</i> agencegrey06@gmail.com <i>✦</i>{" "}
+            07 57 81 17 60 <i>✦</i>{" "}
           </span>
         </div>
       </div>
@@ -29,7 +29,7 @@ export function Footer() {
           <span className="footer__col-title">Contact</span>
           <div className="footer__socials">
             <a href="mailto:agencegrey06@gmail.com">agencegrey06@gmail.com</a>
-            <a href="tel:+33744401792">07 44 40 17 92</a>
+            <a href="tel:+33757811760">07 57 81 17 60</a>
             <a href="https://agence-grey.fr" target="_blank" rel="noopener noreferrer">
               agence-grey.fr
             </a>

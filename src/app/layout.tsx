@@ -66,7 +66,7 @@ const jsonLd = {
     "Agence web spécialisée dans la création de sites internet pour studios de yoga, pole dance, pilates, reformer et lagree. Design sur mesure, SEO local Côte d'Azur.",
   url: "https://agence-grey.fr",
   email: "agencegrey06@gmail.com",
-  telephone: "+33744401792",
+  telephone: "+33757811760",
   address: {
     "@type": "PostalAddress",
     streetAddress: "367 route de Ciaus",
