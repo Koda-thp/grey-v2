@@ -11,32 +11,28 @@ export function Hero() {
       </div>
 
       <div className="hero__content">
-        <p className="hero__eyebrow reveal-line">
+        <p className="hero__eyebrow">
           <span className="hero__eyebrow-dot" />
           Agence web &amp; IA — Nice · Côte d&apos;Azur
         </p>
 
         <h1 className="hero__title">
           <span className="hero__line">
-            <span className="hero__word" data-split>
-              Le web
-            </span>
+            <span className="hero__word">Le web</span>
           </span>
           <span className="hero__line">
-            <span className="hero__word hero__word--outline" data-split>
-              qui rassure
-            </span>
+            <span className="hero__word hero__word--outline">qui rassure</span>
           </span>
         </h1>
 
         <div className="hero__bottom">
-          <p className="hero__desc reveal-line">
+          <p className="hero__desc">
             Sites web, SEO local &amp; automatisation pour studios de yoga, pole dance, pilates,
             reformer et lagree.
             <br />
             Visibilité Google dès l&apos;ouverture, plannings intégrés, appels qui décrochent.
           </p>
-          <a href="#services" className="hero__scroll magnetic" data-cursor="hover">
+          <a href="#services" className="hero__scroll">
             <span className="hero__scroll-circle">
               <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path

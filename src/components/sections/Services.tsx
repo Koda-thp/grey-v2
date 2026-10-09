@@ -38,19 +38,12 @@ export function Services() {
     <section className="services" id="services" style={{ background: "var(--bg-soft)" }}>
       <div className="section-head">
         <span className="section-head__tag">(01) — Nos offres</span>
-        <h2 className="section-head__title" data-split-words>
-          Trois packs, un seul objectif : vous rendre visible
-        </h2>
+        <h2 className="section-head__title">Trois packs, un seul objectif : vous rendre visible</h2>
       </div>
 
       <div className="services__list">
         {services.map((service) => (
-          <article
-            key={service.index}
-            className="service"
-            data-cursor="view"
-            data-cursor-label="Voir"
-          >
+          <article key={service.index} className="service">
             <div className="service__index">{service.index}</div>
             <div className="service__body">
               <h3 className="service__title">{service.title}</h3>

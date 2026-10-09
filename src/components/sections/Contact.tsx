@@ -33,18 +33,10 @@ export function Contact() {
       <div className="footer__top">
         <span className="section-head__tag">(04) — Contact</span>
         <h2 className="footer__title">
-          <span className="footer__title-line" data-split>
-            Un projet
-          </span>
-          <span className="footer__title-line footer__title-line--violet" data-split>
-            en tête&nbsp;?
-          </span>
+          <span className="footer__title-line">Un projet</span>
+          <span className="footer__title-line footer__title-line--violet">en tête&nbsp;?</span>
         </h2>
-        <a
-          href="mailto:agencegrey06@gmail.com"
-          className="footer__cta magnetic"
-          data-cursor="hover"
-        >
+        <a href="mailto:agencegrey06@gmail.com" className="footer__cta">
           <span className="footer__cta-text">Parlons-en</span>
           <span className="footer__cta-icon">
             <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">

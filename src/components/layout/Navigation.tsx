@@ -54,7 +54,7 @@ export function Navigation() {
   return (
     <>
       <header className="nav" ref={navRef}>
-        <Link href="/" className="nav__logo magnetic" data-cursor="hover" onClick={scrollToTop}>
+        <Link href="/" className="nav__logo" onClick={scrollToTop}>
           <Image
             src="/image/logo.png"
             alt="Agence Grey"
@@ -65,23 +65,23 @@ export function Navigation() {
           />
         </Link>
         <nav className="nav__links">
-          <Link href="/#services" className="nav__link magnetic" data-cursor="hover">
+          <Link href="/#services" className="nav__link">
             <span data-text="Nos offres">Nos offres</span>
           </Link>
-          <Link href="/#work" className="nav__link magnetic" data-cursor="hover">
+          <Link href="/#work" className="nav__link">
             <span data-text="Réalisations">Réalisations</span>
           </Link>
-          <Link href="/faq" className="nav__link magnetic" data-cursor="hover">
+          <Link href="/faq" className="nav__link">
             <span data-text="FAQ">FAQ</span>
           </Link>
-          <Link href="/#studio" className="nav__link magnetic" data-cursor="hover">
+          <Link href="/#studio" className="nav__link">
             <span data-text="À propos">À propos</span>
           </Link>
-          <Link href="/#contact" className="nav__link magnetic" data-cursor="hover">
+          <Link href="/#contact" className="nav__link">
             <span data-text="Contact">Contact</span>
           </Link>
         </nav>
-        <Link href="/#contact" className="nav__cta magnetic" data-cursor="hover">
+        <Link href="/#contact" className="nav__cta">
           <span className="nav__cta-text">Devis gratuit</span>
           <span className="nav__cta-dot" />
         </Link>

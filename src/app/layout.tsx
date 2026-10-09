@@ -4,8 +4,6 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Navigation } from "@/components/layout/Navigation";
-import { Animations } from "@/components/ui/Animations";
-import { Cursor } from "@/components/ui/Cursor";
 import { Grain } from "@/components/ui/Grain";
 import { Preloader } from "@/components/ui/Preloader";
 
@@ -98,10 +96,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Preloader />
         <SpeedInsights />
         <Analytics />
-        <Cursor />
         <Grain />
         <Navigation />
-        <Animations />
         {children}
       </body>
     </html>

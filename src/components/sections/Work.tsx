@@ -47,9 +47,7 @@ export function Work() {
     <section className="work" id="work">
       <div className="section-head">
         <span className="section-head__tag">(02) — Réalisations</span>
-        <h2 className="section-head__title" data-split-words>
-          Quelques sites qu&apos;on a déjà créés
-        </h2>
+        <h2 className="section-head__title">Quelques sites qu&apos;on a déjà créés</h2>
       </div>
 
       <div className="work__grid">
@@ -60,11 +58,9 @@ export function Work() {
             target="_blank"
             rel="noopener noreferrer"
             className={`project ${project.variant ? `project--${project.variant}` : ""}`}
-            data-cursor="view"
-            data-cursor-label="Voir le projet"
           >
             <div className="project__visual">
-              <div className="project__preview" data-parallax>
+              <div className="project__preview">
                 <iframe
                   src={project.url}
                   loading="lazy"

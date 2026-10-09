@@ -162,81 +162,6 @@ button {
   z-index: 1;
 }
 
-/* ═══════════ CURSEUR ═══════════ */
-.cursor {
-  display: none;
-}
-@media (hover: hover) and (pointer: fine) {
-  .cursor {
-    display: block;
-    position: fixed;
-    inset: 0;
-    z-index: 9999;
-    pointer-events: none;
-  }
-  .cursor__dot {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: var(--violet-pale);
-    transform: translate(-50%, -50%);
-  }
-  .cursor__circle {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 1px solid rgba(167, 139, 250, 0.5);
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition:
-      width 0.35s var(--ease-out),
-      height 0.35s var(--ease-out),
-      background-color 0.35s var(--ease-out),
-      border-color 0.35s var(--ease-out);
-  }
-  .cursor__label {
-    font-size: 0.7rem;
-    font-weight: 500;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--white);
-    opacity: 0;
-    transition: opacity 0.25s;
-    white-space: nowrap;
-  }
-  .cursor.is-hover .cursor__circle {
-    width: 64px;
-    height: 64px;
-    background: rgba(124, 58, 237, 0.15);
-    border-color: var(--violet-light);
-  }
-  .cursor.is-view .cursor__circle {
-    width: 96px;
-    height: 96px;
-    background: var(--violet);
-    border-color: var(--violet);
-  }
-  .cursor.is-view .cursor__label {
-    opacity: 1;
-  }
-  .cursor.is-view .cursor__dot {
-    opacity: 0;
-  }
-  body.cursor-active,
-  body.cursor-active a,
-  body.cursor-active button {
-    cursor: none;
-  }
-}
-
 /* ═══════════ NAVIGATION ═══════════ */
 .nav {
   position: fixed;
@@ -729,6 +654,11 @@ button {
 .marquee__track {
   display: inline-flex;
   will-change: transform;
+  animation: marqueeScroll 22s linear infinite;
+}
+@keyframes marqueeScroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
 }
 .marquee__track span {
   font-family: var(--font-ui);
@@ -1439,12 +1369,6 @@ button {
 }
 .footer__col--right {
   text-align: right;
-}
-
-/* ═══════════ REVEAL UTILS ═══════════ */
-.reveal-line {
-  opacity: 0;
-  transform: translateY(30px);
 }
 
 /* ═══════════ RESPONSIVE ═══════════ */
