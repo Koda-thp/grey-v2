@@ -1,4 +1,5 @@
 allowBuilds:
   lefthook: true
+  puppeteer: true
   sharp: false
   unrs-resolver: false

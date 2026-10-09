@@ -1,9 +1,12 @@
+import Image from "next/image";
+
 interface Project {
   url: string;
   year: string;
   title: string;
   meta: string;
   variant?: "tall" | "wide";
+  screenshot?: string;
 }
 
 const projects: Project[] = [
@@ -13,12 +16,14 @@ const projects: Project[] = [
     title: "Ora Studio Reformer",
     meta: "Studio de reformer",
     variant: "tall",
+    screenshot: "/images/projects/ora-studio-reformer.jpg",
   },
   {
     url: "https://www.pole-dance-troyes.fr",
     year: "2026",
     title: "Pole Dance Troyes",
     meta: "Studio de pole dance · Troyes",
+    screenshot: "/images/projects/pole-dance-troyes.jpg",
   },
   {
     url: "https://clone-prana.vercel.app",
@@ -61,12 +66,22 @@ export function Work() {
           >
             <div className="project__visual">
               <div className="project__preview">
-                <iframe
-                  src={project.url}
-                  loading="lazy"
-                  sandbox="allow-same-origin allow-scripts"
-                  title={project.title}
-                />
+                {project.screenshot ? (
+                  <Image
+                    src={project.screenshot}
+                    alt={project.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover"
+                  />
+                ) : (
+                  <iframe
+                    src={project.url}
+                    loading="lazy"
+                    sandbox="allow-same-origin allow-scripts"
+                    title={project.title}
+                  />
+                )}
               </div>
               <span className="project__year">{project.year}</span>
             </div>
