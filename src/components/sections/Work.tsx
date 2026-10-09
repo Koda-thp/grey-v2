@@ -53,6 +53,7 @@ const otherProjects: Project[] = [
     year: "2026",
     title: "France Nuisibles Solutions",
     meta: "Dératisation & désinsectisation",
+    screenshot: "/images/projects/france-nuisibles.png",
   },
 ];
 
