@@ -8,17 +8,17 @@ interface Project {
 
 const projects: Project[] = [
   {
-    url: "https://colombet.vercel.app",
+    url: "https://www.orastudioreformer.fr",
     year: "2026",
-    title: "Colombet",
-    meta: "Plomberie premium · Le Cannet",
+    title: "Ora Studio Reformer",
+    meta: "Studio de reformer",
     variant: "tall",
   },
   {
-    url: "https://scexpertnuisiblesdratisationprotect.vercel.app",
+    url: "https://www.pole-dance-troyes.fr",
     year: "2026",
-    title: "SC Expert Nuisibles",
-    meta: "Dératisation & désinsectisation · Auriol (13)",
+    title: "Pole Dance Troyes",
+    meta: "Studio de pole dance · Troyes",
   },
   {
     url: "https://clone-prana.vercel.app",

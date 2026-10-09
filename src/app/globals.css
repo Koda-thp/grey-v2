@@ -657,8 +657,12 @@ button {
   animation: marqueeScroll 22s linear infinite;
 }
 @keyframes marqueeScroll {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 .marquee__track span {
   font-family: var(--font-ui);
