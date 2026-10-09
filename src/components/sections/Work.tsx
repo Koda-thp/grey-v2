@@ -9,7 +9,7 @@ interface Project {
   screenshot?: string;
 }
 
-const projects: Project[] = [
+const studioProjects: Project[] = [
   {
     url: "https://www.orastudioreformer.fr",
     year: "2026",
@@ -38,12 +38,21 @@ const projects: Project[] = [
     meta: "Pole dance · Design Barbie & immersif",
     variant: "tall",
   },
+];
+
+const otherProjects: Project[] = [
   {
     url: "https://magron-indol.vercel.app",
     year: "2025",
     title: "Magron Construction",
     meta: "Maçonnerie de luxe · Le Lavandou",
     variant: "wide",
+  },
+  {
+    url: "https://france-nuisibles-solutions.vercel.app",
+    year: "2026",
+    title: "France Nuisibles Solutions",
+    meta: "Dératisation & désinsectisation",
   },
 ];
 
@@ -52,11 +61,51 @@ export function Work() {
     <section className="work" id="work">
       <div className="section-head">
         <span className="section-head__tag">(02) — Réalisations</span>
-        <h2 className="section-head__title">Quelques sites qu&apos;on a déjà créés</h2>
+        <h2 className="section-head__title">On a accompagné ces studios</h2>
       </div>
 
       <div className="work__grid">
-        {projects.map((project) => (
+        {studioProjects.map((project) => (
+          <a
+            key={project.title}
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`project ${project.variant ? `project--${project.variant}` : ""}`}
+          >
+            <div className="project__visual">
+              <div className="project__preview">
+                {project.screenshot ? (
+                  <Image
+                    src={project.screenshot}
+                    alt={project.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover"
+                  />
+                ) : (
+                  <iframe
+                    src={project.url}
+                    loading="lazy"
+                    sandbox="allow-same-origin allow-scripts"
+                    title={project.title}
+                  />
+                )}
+              </div>
+              <span className="project__year">{project.year}</span>
+            </div>
+            <div className="project__info">
+              <h3 className="project__title">{project.title}</h3>
+              <p className="project__meta">{project.meta}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      <h3 className="work__subtitle">Nos autres réalisations</h3>
+
+      <div className="work__grid">
+        {otherProjects.map((project) => (
           <a
             key={project.title}
             href={project.url}
