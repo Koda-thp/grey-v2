@@ -942,7 +942,7 @@ button {
   z-index: 1;
   will-change: transform;
   transition: transform 0.8s var(--ease-out);
-  background: var(--bg);
+  background: linear-gradient(135deg, var(--bg-soft) 0%, var(--bg-lighter) 100%);
 }
 .project:hover .project__preview {
   transform: scale(1.04);
