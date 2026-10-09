@@ -16,14 +16,14 @@ const projects: Project[] = [
     title: "Ora Studio Reformer",
     meta: "Studio de reformer",
     variant: "tall",
-    screenshot: "/images/projects/ora-studio-reformer.jpg",
+    screenshot: "/images/projects/ora.png",
   },
   {
     url: "https://www.pole-dance-troyes.fr",
     year: "2026",
     title: "Pole Dance Troyes",
     meta: "Studio de pole dance · Troyes",
-    screenshot: "/images/projects/pole-dance-troyes.jpg",
+    screenshot: "/images/projects/pole-dance-troyes.png",
   },
   {
     url: "https://clone-prana.vercel.app",
